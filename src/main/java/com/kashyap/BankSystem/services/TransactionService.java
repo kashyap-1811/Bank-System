@@ -99,7 +99,7 @@ public class TransactionService {
     }
 //------------------------------------------------------------------------------------------------------------------------
 
-    //19 Get Transaction Detials by Id
+    //19 Get Transaction Details by Id
     public Optional<Transaction> getTransactionbyId(Long id)
     {
         return transactionRepository.findById(id);
